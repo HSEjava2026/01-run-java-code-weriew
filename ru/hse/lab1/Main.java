@@ -1,0 +1,9 @@
+import second.Person;
+
+public class Main {
+    public static void main(String[] args){
+        Person alex=new Person("Alex", 28);
+        System.out.println(alex.name);
+        System.out.println(alex.age);
+    }
+}
